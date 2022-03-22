@@ -1,0 +1,42 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #ffffff;
+}
+span, footer, h1{
+    background-color: #673ddb;
+}
+html { 
+    background: url("anastasiya-romanova-sA5W8RfbdEY-unsplash.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h1 p {
+    font-size: .5em;
+    line-height: 1.4em;
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+p + a {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+a:link{
+    color: white;
+}
